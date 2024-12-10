@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary-400: theme('colors.blue.400');
+  --color-primary-500: theme('colors.blue.500');
+  --color-primary-600: theme('colors.blue.600');
+  --color-primary-700: theme('colors.blue.700');
+  --color-primary-800: theme('colors.blue.800');
+  --color-primary-900: theme('colors.blue.900');
+}
+
+:root.theme-blue {
+  --color-primary-400: theme('colors.blue.400');
+  --color-primary-500: theme('colors.blue.500');
+  --color-primary-600: theme('colors.blue.600');
+  --color-primary-700: theme('colors.blue.700');
+  --color-primary-800: theme('colors.blue.800');
+  --color-primary-900: theme('colors.blue.900');
+}
+
+:root.theme-purple {
+  --color-primary-400: theme('colors.purple.400');
+  --color-primary-500: theme('colors.purple.500');
+  --color-primary-600: theme('colors.purple.600');
+  --color-primary-700: theme('colors.purple.700');
+  --color-primary-800: theme('colors.purple.800');
+  --color-primary-900: theme('colors.purple.900');
+}
+
+:root.theme-green {
+  --color-primary-400: theme('colors.green.400');
+  --color-primary-500: theme('colors.green.500');
+  --color-primary-600: theme('colors.green.600');
+  --color-primary-700: theme('colors.green.700');
+  --color-primary-800: theme('colors.green.800');
+  --color-primary-900: theme('colors.green.900');
+}
+
+:root.theme-rose {
+  --color-primary-400: theme('colors.rose.400');
+  --color-primary-500: theme('colors.rose.500');
+  --color-primary-600: theme('colors.rose.600');
+  --color-primary-700: theme('colors.rose.700');
+  --color-primary-800: theme('colors.rose.800');
+  --color-primary-900: theme('colors.rose.900');
+}
